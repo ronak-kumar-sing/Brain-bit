@@ -55,7 +55,7 @@ function RefinedBackground() {
   const effectMap = useMemo(() => getEffectMap(hovered), [hovered, getEffectMap])
 
   return (
-    <div className="bg-gray-900 h-screen w-screen overflow-hidden">
+    <div className="bg-gray-900 h-screen w-screen overflow-hidden fixed top-0 left-0 ">
       <div
         style={{
           display: "grid",
